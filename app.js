@@ -31,8 +31,13 @@ let verbs = [
 ];
 const randomVerbs = verbs[Math.floor(Math.random() * verbs.length)];
 
+let nameUser = document.getElementById('name');
+
 let history = document.getElementById('history');
 let button = document.getElementById('button');
 button.addEventListener('click', function (){
-    history.innerHTML = randomName + " avec " + randomObjet + " a une temperature de " + randomTemperature + " se trouve " + randomPlaces + randomVerbs;
+    history.innerHTML = randomName + " avec " + randomObjet + " a une temperature de " + randomTemperature + " se trouve " + randomPlaces + randomVerbs
+    + " ! " + " Cette Histoire a ete generer par " + nameUser.value;
 })
+
+

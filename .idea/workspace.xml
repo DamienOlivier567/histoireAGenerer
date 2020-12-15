@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7f41eb6-1734-4a78-9196-89b86219bf6a" name="Default Changelist" comment="" />
+    <list default="true" id="c7f41eb6-1734-4a78-9196-89b86219bf6a" name="Default Changelist" comment="Histoire a generer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +49,40 @@
       <option name="presentableId" value="Default" />
       <updated>1607957046642</updated>
       <workItem from="1607957047690" duration="1684000" />
-      <workItem from="1607958756554" duration="1760000" />
+      <workItem from="1607958756554" duration="1783000" />
+      <workItem from="1608018990554" duration="1020000" />
+      <workItem from="1608020097582" duration="63000" />
+      <workItem from="1608020207569" duration="24000" />
     </task>
+    <task id="LOCAL-00001" summary="Histoire a generer">
+      <created>1607960551045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607960551045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Histoire a generer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Histoire a generer" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="821" y="420" key="Github.ShareDialog" timestamp="1607960526301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="420" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607960526301" />
+    <state x="752" y="227" key="Github.UntrackedFilesDialog" timestamp="1607960532356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="227" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607960532356" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607960555208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607960555208" />
   </component>
 </project>
