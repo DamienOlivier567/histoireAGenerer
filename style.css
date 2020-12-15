@@ -7,6 +7,8 @@ body{
 h1{
     text-align: center;
     font-weight: bold;
+    font-size: 70px;
+    color: blanchedalmond;
 }
 
 #debut{
@@ -17,17 +19,18 @@ h1{
 
 #name{
     font-weight: bold;
-    display: flex;
-    flex: auto;
+    text-align: center;
+    font-size: 30px;
 }
 
 button{
     text-align: center;
-    font-size: 1rem;
+    font-size: 30px;
 }
 
 #history{
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family: 'Langar', cursive;
+    color: blanchedalmond;
 }
