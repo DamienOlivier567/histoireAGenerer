@@ -3,7 +3,8 @@ let name = [
     "Eren",
     "Livai",
     "Mikasa",
-    "Armin"];
+    "Armin"
+];
 const randomName = name[Math.floor(Math.random() * name.length)];
 let objet = [
     " une Eppé",
@@ -12,7 +13,13 @@ let objet = [
     " une Hache"
 ];
 const randomObjet = objet[Math.floor(Math.random() * objet.length)];
-let temperature = ["10°", "20°", "15°", "5°", "0°"];
+let temperature = [
+    "10°",
+    "20°",
+    "15°",
+    "5°",
+    "0°"
+];
 const randomTemperature = temperature[Math.floor(Math.random() * temperature.length)];
 let places = [
     " à la Zone d'entrainement ",
@@ -35,9 +42,9 @@ let nameUser = document.getElementById('name');
 
 let history = document.getElementById('history');
 let button = document.getElementById('button');
-button.addEventListener('click', function (){
-    history.innerHTML = randomName + " avec " + randomObjet + " a une temperature de " + randomTemperature + " se trouve " + randomPlaces + randomVerbs
-    + " ! " + " Cette Histoire a ete generer par " + nameUser.value;
-})
+button.addEventListener('click', historyCreated);
 
-
+function historyCreated(){
+    history.innerHTML = randomName + " avec " + randomObjet + " a une temperature de " + randomTemperature + " se trouve " + randomPlaces + randomVerbs + " ! "
+        + " Cette Histoire a ete generer par " + nameUser.value;
+}
